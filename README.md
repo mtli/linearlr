@@ -11,8 +11,16 @@ This repository implements a tuning-free learning rate schedule for training dee
 
 [**[Paper]**](https://arxiv.org/abs/1905.04753)[**[Project Page]**](http://www.cs.cmu.edu/~mengtial/proj/budgetnn/)
 
+## Installation
+```
+pip install linearlr
+```
+[![PyPI version](https://badge.fury.io/py/linearlr.svg)](https://badge.fury.io/py/linearlr)
+
 ## Usage
 ```python
+from linearlr import LinearLR
+
 schedule = LinearLR(optimizer, T)
 ```
 - optimizer: the PyTorch optimizers (e.g. SGD)

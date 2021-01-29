@@ -1,3 +1,5 @@
+__version__ = '0.0.1'
+
 from torch.optim.lr_scheduler import _LRScheduler
 
 class LinearLR(_LRScheduler):
