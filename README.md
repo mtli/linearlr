@@ -11,6 +11,8 @@ This repository implements a tuning-free learning rate schedule for training dee
 
 [**[Paper]**](https://arxiv.org/abs/1905.04753)[**[Project Page]**](http://www.cs.cmu.edu/~mengtial/proj/budgetnn/)
 
+For CIFAR and ImageNet models used in the paper, you can check out our reimplementation in [llcv](https://github.com/mtli/llcv).
+
 ## Installation
 ```
 pip install linearlr
